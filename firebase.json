@@ -1,7 +1,6 @@
 {
   "hosting": {
-    "public": "public",
-    "site": "crm-budget-1",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
