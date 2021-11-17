@@ -1,4 +1,4 @@
-# vue-youtube
+# crm-budget
 
 ## Project setup
 ```
