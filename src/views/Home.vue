@@ -12,8 +12,10 @@
       <Loader v-if="loading"/>
 
       <div v-else class="row">
-        <HomeBill :rates="currency.rates"/>
-        <HomeCurrency :rates="currency.rates" :date="currency.date"/>
+        <div v-if="this.currency && this.currency.rates">
+          <HomeBill :rates="currency.rates"/>
+          <HomeCurrency :rates="currency.rates" :date="currency.date"/>
+        </div>
       </div>
     </div>
   </div>
